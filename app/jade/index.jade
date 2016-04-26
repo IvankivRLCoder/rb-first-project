@@ -6,6 +6,7 @@ html(lang="en")
     link(rel="stylesheet", href="css/libraries.min.css")
     link(rel="stylesheet", href="css/main.css")
   body
+    //START HEADER
     header.header
       .header-top-bar
         .container
@@ -15,7 +16,7 @@ html(lang="en")
             ul.header-top-bar-nav__list
               li.header-top-bar-nav__list--item
                 a(href="#") home
-              li.header-top-bar-nav__list--item_selected
+              li.header-top-bar-nav__list--item_active
                 a(href="#") about
               li.header-top-bar-nav__list--item
                 a(href="#") skills
@@ -28,14 +29,31 @@ html(lang="en")
       .header-slider
         .container
           .header-slider-container
-            h1.header-slider-container-title we are satigo
+            h1.header-slider-container-title we are rb
             p.header-slider-container-description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ad eius optio sed aperiam?
             form.header-slider-container-form
-              input.header-slider-container-form__join-btn(type="submit")
-              input.header-slider-container-form__works-btn(type="submit")
+              input.header-slider-container-form__join-btn_active(type="submit" value="join us")
+              input.header-slider-container-form__works-btn(type="submit" value="our projects")
       .header-status
+        .container
+          .header-status-line
+            span.header-status-line__lable last news
+            span.header-status-line__text  Lorem ipsum dolor sit amet,dosnu Odit possimus alias dolore totam provident numquam facilis!
       .header-partner-logos
-      //Start_About Us
+        .container
+          ul.header-partner-logos__list
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+    //END HEADER
+    //START ABOUT US
     section.about-us
       .title-about-us
           h2 ABOUT US
@@ -52,5 +70,6 @@ html(lang="en")
           article.about-us__how-we-do-it--inform
           .about-us__how-we-do-it--images
             a(href="#")
+    //END ABOUT US
   script(src="js/libraries.min.js")
   script(src="js/common.js")

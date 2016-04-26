@@ -3,13 +3,13 @@
   flex-grow: 1
   flex-direction: column
   height: 100vh
-  background-color: red
   &-top-bar
     display: flex
     flex-direction: row
     justify-content: center
     background-color: #f2f2f2
     height: 46px
+    min-height: 46px
     &-logo
       display: flex
       &__img
@@ -29,16 +29,16 @@
         text-transform: uppercase
         &--item a
           color: #313131
-        &--item_selected a
+        &--item_active a
           color: #313131
           font-weight: bold
   &-slider
     display: flex
     justify-content: center
     align-items: center
-    flex-direction: column
-    flex-wrap: wrap
+    flex-direction: row
     flex-grow: 1
+    min-height: 340px
     background: url(../img/people-coffee-tea-meeting.jpg)
     background-size: cover
     &-container
@@ -53,18 +53,113 @@
         width: auto
         flex-grow: 1
         text-transform: uppercase
-        font-size: 3rem
+        font-size: 3.3rem
         color: #f2f2f2
+        background-color rgba(0, 0, 0, .35)
+        padding: 7px 13px
       &-description
         display: flex
         flex-grow: 1
         text-transform: uppercase
+        font-size: 1rem
         margin-bottom: 50px
-        color: #f2f2f2
+        color: rgba(0, 0, 0, 0.66)
+        font-weight: 700
       &-form
         display: flex
         flex-grow: 1
+        flex-direction: row
+        justify-content: space-between;
+        height: 50px
+        width: 320px
         &__join-btn
           display: flex
+          width: 150px
+          background-color rgba(0, 0, 0, .35)
+          border 2px solid #f2f2f2
+          border-radius: 4px
+          color: #f2f2f2
+          justify-content: center
+          text-transform: uppercase
+          cursor: pointer
+          outline: none
+          font-weight: 600
         &__works-btn
           display: flex
+          width: 150px
+          background-color rgba(0, 0, 0, .35)
+          border 2px solid #f2f2f2
+          border-radius: 4px
+          color: #f2f2f2
+          justify-content: center
+          text-transform: uppercase
+          cursor: pointer
+          outline: none
+          font-weight: 600
+        &__join-btn_active,
+        &__works-btn_active
+          display: flex
+          width: 150px
+          background-color #73B3BC
+          border 2px solid #73B3BC
+          border-radius: 4px
+          color: #f2f2f2
+          justify-content: center
+          text-transform: uppercase
+          cursor: pointer
+          outline: none
+          font-weight: 600
+  .header-status
+    display: flex;
+    align-items: center
+    justify-content: center
+    flex-direction: row
+    flex-grow: 1
+    min-height: 80px
+    background-color: #414141
+    &-line
+      display: flex
+      flex-direction: row
+      justify-content: center
+      align-items: stretch
+      margin: 0 auto
+      height: 50px
+      background-color #fff
+      &__lable
+        display: flex
+        padding: 0 20px
+        background-color: #E85454
+        flex-grow: 1
+        align-items: center
+        text-transform: uppercase
+        text-align: center
+        font-weight: 600
+        color: #f2f2f2
+      &__text
+        display: flex
+        padding: 0 10px
+        flex-grow: 1
+        align-items: center
+        text-align: center
+        background-color: #313131
+        color: #CCC8C8
+        text-transform: uppercase
+  .header-partner-logos
+    display: flex;
+    align-items: center
+    justify-content: center
+    flex-direction: row
+    flex-grow: 1
+    min-height: 80px
+    background-color #F2F2F2
+    &__list
+      display: flex
+      flex-direction: row
+      align-items: center
+      justify-content: space-around
+      flex-grow: 1
+      &--item
+        display: flex
+        & img
+          display: flex
+          height 50px
