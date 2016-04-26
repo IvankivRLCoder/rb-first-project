@@ -7,7 +7,7 @@ html(lang="en")
     link(rel="stylesheet", href="css/main.css")
   body
     header.header
-      div.header-top-bar
+      .header-top-bar
         .container
           a.header-top-bar-logo(href="#")
             img.header-top-bar-logo__img(src="http://placehold.it/200x100", alt="Main logo")
@@ -25,7 +25,14 @@ html(lang="en")
                 a(href="#") our team
               li.header-top-bar-nav__list--item
                 a(href="#") contact
-      .header-photo
+      .header-slider
+        .container
+          .header-slider-container
+            h1.header-slider-container-title we are satigo
+            p.header-slider-container-description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ad eius optio sed aperiam?
+            form.header-slider-container-form
+              input.header-slider-container-form__join-btn(type="submit")
+              input.header-slider-container-form__works-btn(type="submit")
       .header-status
       .header-partner-logos
   script(src="js/libraries.min.js")
