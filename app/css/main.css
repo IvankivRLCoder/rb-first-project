@@ -48,7 +48,6 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
-  background-color: #f00;
 }
 .header-top-bar {
   display: -webkit-box;
