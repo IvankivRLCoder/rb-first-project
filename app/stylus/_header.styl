@@ -1,0 +1,36 @@
+.header
+  display: flex
+  flex-grow: 1
+  flex-direction: row
+  height: 100vh
+  min-height: 660px
+  background-color: red
+  &-top-bar
+    display: flex
+    flex-direction: row
+    justify-content: center
+    flex-grow: 1
+    background-color: #f2f2f2
+    height: 46px
+    &-logo
+      display: flex
+      &__img
+        display: flex
+        height: 46px
+    &-nav
+      display: flex
+      justify-content: flex-end
+      align-items: center
+      flex-grow: 1
+      &__list
+        display: flex
+        list-style-type: none
+        flex-direction: row
+        justify-content: space-between
+        width: 450px
+        text-transform: uppercase
+        &--item a
+          color: #313131
+        &--item_selected a
+          color: #313131
+          font-weight: bold

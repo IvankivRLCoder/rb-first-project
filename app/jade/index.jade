@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+  head
+    title Gulp template
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="css/libraries.min.css")
+    link(rel="stylesheet", href="css/main.css")
+  body
+    header.header
+      div.header-top-bar
+        .container
+          a.header-top-bar-logo(href="#")
+            img.header-top-bar-logo__img(src="http://placehold.it/200x100", alt="Main logo")
+          nav.header-top-bar-nav
+            ul.header-top-bar-nav__list
+              li.header-top-bar-nav__list--item_selected
+                a(href="#") home
+              li.header-top-bar-nav__list--item
+                a(href="#") about
+              li.header-top-bar-nav__list--item
+                a(href="#") skills
+              li.header-top-bar-nav__list--item
+                a(href="#") our projects
+              li.header-top-bar-nav__list--item
+                a(href="#") our team
+              li.header-top-bar-nav__list--item
+                a(href="#") contact
+      .header-photo
+      .header-status
+      .header-partner-logos
+  script(src="js/libraries.min.js")
+  script(src="js/common.js")
