@@ -48,7 +48,7 @@ a {
       -ms-flex-direction: row;
           flex-direction: row;
   height: 100vh;
-  min-height: 660px;
+  min-height: 560px;
   background-color: #f00;
 }
 .header-top-bar {
