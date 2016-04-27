@@ -527,7 +527,34 @@ a {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background-color: #f00;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: transparent;
+}
+.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--inform {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: transparent;
+}
+.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--images {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: transparent;
 }
 .about-us .about-us-container .about-us__what-we-do {
   display: -webkit-box;
@@ -538,7 +565,29 @@ a {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background-color: #008000;
+  background-color: transparent;
+}
+.about-us .about-us-container .about-us__what-we-do .about-us__what-we-do--inform {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: transparent;
+}
+.about-us .about-us-container .about-us__what-we-do .about-us__what-we-do--images {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: transparent;
 }
 .about-us .about-us-container .about-us__how-we-do-it {
   display: -webkit-box;
@@ -549,7 +598,29 @@ a {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  background-color: #ff0;
+  background-color: transparent;
+}
+.about-us .about-us-container .about-us__how-we-do-it .about-us__how-we-do-it--inform {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: transparent;
+}
+.about-us .about-us-container .about-us__how-we-do-it .about-us__how-we-do-it--images {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: transparent;
 }
 /*--> AboutUs END <--*/
 
