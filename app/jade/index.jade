@@ -6,16 +6,17 @@ html(lang="en")
     link(rel="stylesheet", href="css/libraries.min.css")
     link(rel="stylesheet", href="css/main.css")
   body
+    //START HEADER
     header.header
-      div.header-top-bar
+      .header-top-bar
         .container
           a.header-top-bar-logo(href="#")
-            img.header-top-bar-logo__img(src="http://placehold.it/200x100", alt="Main logo")
+            img.header-top-bar-logo__img(src="#", alt="Main logo")
           nav.header-top-bar-nav
             ul.header-top-bar-nav__list
               li.header-top-bar-nav__list--item
                 a(href="#") home
-              li.header-top-bar-nav__list--item_selected
+              li.header-top-bar-nav__list--item_active
                 a(href="#") about
               li.header-top-bar-nav__list--item
                 a(href="#") skills
@@ -25,8 +26,93 @@ html(lang="en")
                 a(href="#") our team
               li.header-top-bar-nav__list--item
                 a(href="#") contact
-      .header-photo
+      .header-slider
+        .container
+          .header-slider-container
+            h1.header-slider-container-title we are rb
+            p.header-slider-container-description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ad eius optio sed aperiam?
+            form.header-slider-container-form
+              input.header-slider-container-form__join-btn_active(type="submit" value="join us")
+              input.header-slider-container-form__works-btn(type="submit" value="our projects")
       .header-status
+        .container
+          .header-status-line
+            span.header-status-line__lable last news
+            span.header-status-line__text  Lorem ipsum dolor sit amet,dosnu Odit possimus alias dolore totam provident numquam facilis!
       .header-partner-logos
+        .container
+          ul.header-partner-logos__list
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+            li.header-partner-logos__list--item
+              img(src="../img/wordpress-logo-simplified-rgb.png", alt="Partner logos")
+    //END HEADER
+    //START ABOUT US
+    section.about-us
+        .about-us-title
+          .container
+            h2.about-us-title__name ABOUT US
+        .about-us-container
+          .container
+            .about-us__who-we-are
+              article.about-us__who-we-are--inform
+                h3 asdasdasdasdasdas
+              .about-us__who-we-are--images
+                .about-us__who-we-are--images_hexagon
+                  a(href="#")
+            .about-us__what-we-do
+              .about-us__what-we-do--images
+                a(href="#")
+              article.about-us__what-we-do--inform
+                h3 asdasdasdasdasdas
+            .about-us__how-we-do-it
+              article.about-us__how-we-do-it--inform
+                h3 asdasdasdasdasdas
+              .about-us__how-we-do-it--images
+                a(href="#")
+    //END ABOUT US
+    //OUR SKILLS START
+    section.our-skills
+      .our-skills-title
+        .container
+          h2.our-skills-title__name our skills
+      .our-skills-container
+        .container
+          article.our-skills-container-work-quality
+            h3.our-skills-container-work-quality__title quality of our work
+            .our-skills-container-work-quality-container
+              ul.our-skills-container-work-quality-container__list
+                li.our-skills-container-work-quality-container__list--item
+                  span.our-skills-container-work-quality-container__list--item__icon
+                    i(class="fa fa-html5" aria-hidden="true")
+                  span.our-skills-container-work-quality-container__list--item__description
+                    |HTML 5 standarts
+                li.our-skills-container-work-quality-container__list--item
+                  span.our-skills-container-work-quality-container__list--item__icon
+                    i(class="fa fa-css3" aria-hidden="true")
+                  span.our-skills-container-work-quality-container__list--item__description
+                    |CSS 3 standarts
+                li.our-skills-container-work-quality-container__list--item
+                  span.our-skills-container-work-quality-container__list--item__icon
+                    i(class="fa fa-mobile" aria-hidden="true")
+                  span.our-skills-container-work-quality-container__list--item__description
+                    |responsive
+                li.our-skills-container-work-quality-container__list--item
+                  span.our-skills-container-work-quality-container__list--item__icon
+                    i(class="fa fa-rocket" aria-hidden="true")
+                  span.our-skills-container-work-quality-container__list--item__description
+                    |fast pages
+                li.our-skills-container-work-quality-container__list--item
+                  span.our-skills-container-work-quality-container__list--item__icon
+                    i(class="fa fa-file-zip-o" aria-hidden="true")
+                  span.our-skills-container-work-quality-container__list--item__description
+                    |well packed
+    //OUR SKILLS END
   script(src="js/libraries.min.js")
   script(src="js/common.js")

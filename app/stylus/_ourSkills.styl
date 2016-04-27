@@ -1,0 +1,88 @@
+.our-skills
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+  height: 100vh
+  // background-color: green
+  &-title
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    min-height: 80px
+    flex-grow: 1
+    background-color #424242
+    &__name
+      display: flex
+      margin: 0 auto
+      font-size 3rem
+      color #f2f2f2
+      text-transform: uppercase
+  &-container
+    display: flex
+    flex-grow: 1
+    min-height: 582px
+    background-color: #f2f2f2
+    justify-content: center
+    align-items: flex-start
+    &-work-quality
+      display: flex
+      flex-direction: column
+      align-items: center
+      flex-grow: 1
+      &__title
+        display: flex
+        text-transform: uppercase
+        font-size: 1.8em
+        color: #11b8cc
+        flex-grow: 1
+      &-container
+        display: flex
+        flex-direction: row
+        align-self: stretch
+        flex-grow: 1
+        &__list
+          display: flex
+          flex-direction: row
+          flex-grow: 1
+          justify-content: space-around
+          width: 500px
+          &--item
+            display: flex
+            flex-direction: column
+            align-items: center
+            justify-content: center
+            height: 130px
+            width: 130px
+            overflow: hidden
+            border-radius: 50%
+            color: #f2f2f2
+            box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.7)
+            &__icon
+              display: flex
+              max-width: 130px
+              padding-top: 3px
+              align-items: center
+              justify-content: center
+              flex-grow: 2
+              font-size: 2rem
+            &__description
+              display: flex
+              justify-content: center
+              padding-top: 5px
+              flex-grow: 1
+              font-size: .8em
+              width: 130px
+              font-weight: 600
+              background-color #424242
+              text-transform: capitalize
+          &--item:nth-child(1)
+            background-color: #F16529
+          &--item:nth-child(2)
+            background-color: #227AB5
+          &--item:nth-child(3)
+            background-color: #e85454
+          &--item:nth-child(4)
+            background-color: #0EAE8C
+          &--item:nth-child(5)
+            background-color: #73B3BC
