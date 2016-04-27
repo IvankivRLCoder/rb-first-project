@@ -507,11 +507,6 @@ ul {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
@@ -554,6 +549,34 @@ ul {
       -ms-flex-positive: 1;
           flex-grow: 1;
   background-color: transparent;
+}
+.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon {
+  width: 100px;
+  height: 55px;
+  background: #f00;
+  position: relative;
+}
+.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon :before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #f00;
+}
+.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon :after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #f00;
 }
 .about-us .about-us-container .about-us__what-we-do {
   display: -webkit-box;
