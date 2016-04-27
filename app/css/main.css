@@ -449,23 +449,37 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
+  min-height: 545px;
   height: 100vh;
   background-color: #11b8cc;
 }
 .about-us .about-us-title {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 100px;
   background-color: #424242;
 }
@@ -485,7 +499,26 @@ a {
   font-size: 3rem;
   color: #fff;
 }
-.about-us .about-us__who-we-are {
+.about-us .about-us-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.about-us .about-us-container .about-us__who-we-are {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -496,7 +529,7 @@ a {
           flex-grow: 1;
   background-color: #f00;
 }
-.about-us .about-us__what-we-do {
+.about-us .about-us-container .about-us__what-we-do {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -507,7 +540,7 @@ a {
           flex-grow: 1;
   background-color: #008000;
 }
-.about-us .about-us__how-we-do-it {
+.about-us .about-us-container .about-us__how-we-do-it {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
