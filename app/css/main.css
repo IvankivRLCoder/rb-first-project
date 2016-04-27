@@ -457,7 +457,7 @@ ul {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 545px;
+  min-height: 550px;
   height: 100vh;
   background-color: #11b8cc;
 }
@@ -474,19 +474,90 @@ ul {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100px;
+  background-color: #424242;
+}
+.about-us .about-us-title .about-us-title__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 100px;
-  background-color: #424242;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
-.about-us .about-us-title .about-us-title__name {
+.about-us .about-us-title .about-us-title__container .about-us-title__name {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  font-size: 3rem;
+  color: #fff;
+}
+.about-us .about-us-all {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.about-us .about-us-all .about-us__container {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about-us .about-us-all .about-us__container .about-us__who-we-are {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: transparent;
+}
+.about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--inform {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -495,40 +566,33 @@ ul {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 3rem;
-  color: #fff;
-}
-.about-us .about-us-container {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-color: transparent;
+}
+.about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--inform .about-us__who-we-are--inform_h3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--images {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-.about-us .about-us-container .about-us__who-we-are {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  background-color: transparent;
-}
-.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--inform {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -539,24 +603,13 @@ ul {
           flex-grow: 1;
   background-color: transparent;
 }
-.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--images {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  background-color: transparent;
-}
-.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon {
+.about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon {
   width: 100px;
   height: 55px;
-  background: #f00;
+  background: #424242;
   position: relative;
 }
-.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon :before {
+.about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon :before {
   content: "";
   position: absolute;
   top: -25px;
@@ -565,9 +618,9 @@ ul {
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 25px solid #f00;
+  border-bottom: 25px solid #424242;
 }
-.about-us .about-us-container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon :after {
+.about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon :after {
   content: "";
   position: absolute;
   bottom: -25px;
@@ -576,9 +629,9 @@ ul {
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 25px solid #f00;
+  border-top: 25px solid #424242;
 }
-.about-us .about-us-container .about-us__what-we-do {
+.about-us .about-us-all .about-us__container .about-us__what-we-do {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -589,7 +642,15 @@ ul {
           flex-grow: 1;
   background-color: transparent;
 }
-.about-us .about-us-container .about-us__what-we-do .about-us__what-we-do--inform {
+.about-us .about-us-all .about-us__container .about-us__what-we-do .about-us__what-we-do--inform {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -600,7 +661,23 @@ ul {
           flex-grow: 1;
   background-color: transparent;
 }
-.about-us .about-us-container .about-us__what-we-do .about-us__what-we-do--images {
+.about-us .about-us-all .about-us__container .about-us__what-we-do .about-us__what-we-do--inform .about-us__what-we-do--inform_h3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.about-us .about-us-all .about-us__container .about-us__what-we-do .about-us__what-we-do--images {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -611,7 +688,35 @@ ul {
           flex-grow: 1;
   background-color: transparent;
 }
-.about-us .about-us-container .about-us__how-we-do-it {
+.about-us .about-us-all .about-us__container .about-us__what-we-do .about-us__what-we-do--images .about-us__what-we-do--images_hexagon {
+  width: 100px;
+  height: 55px;
+  background: #424242;
+  position: relative;
+}
+.about-us .about-us-all .about-us__container .about-us__what-we-do .about-us__what-we-do--images .about-us__what-we-do--images_hexagon :before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #424242;
+}
+.about-us .about-us-all .about-us__container .about-us__what-we-do .about-us__what-we-do--images .about-us__what-we-do--images_hexagon :after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #424242;
+}
+.about-us .about-us-all .about-us__container .about-us__how-we-do-it {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -622,7 +727,15 @@ ul {
           flex-grow: 1;
   background-color: transparent;
 }
-.about-us .about-us-container .about-us__how-we-do-it .about-us__how-we-do-it--inform {
+.about-us .about-us-all .about-us__container .about-us__how-we-do-it .about-us__how-we-do-it--inform {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -633,7 +746,23 @@ ul {
           flex-grow: 1;
   background-color: transparent;
 }
-.about-us .about-us-container .about-us__how-we-do-it .about-us__how-we-do-it--images {
+.about-us .about-us-all .about-us__container .about-us__how-we-do-it .about-us__how-we-do-it--inform .about-us__how-we-do-it--inform_h3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.8rem;
+  color: #fff;
+}
+.about-us .about-us-all .about-us__container .about-us__how-we-do-it .about-us__how-we-do-it--images {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -643,6 +772,34 @@ ul {
       -ms-flex-positive: 1;
           flex-grow: 1;
   background-color: transparent;
+}
+.about-us .about-us-all .about-us__container .about-us__how-we-do-it .about-us__how-we-do-it--images .about-us__how-we-do-it--images_hexagon {
+  width: 100px;
+  height: 55px;
+  background: #424242;
+  position: relative;
+}
+.about-us .about-us-all .about-us__container .about-us__how-we-do-it .about-us__how-we-do-it--images .about-us__how-we-do-it--images_hexagon :before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid #424242;
+}
+.about-us .about-us-all .about-us__container .about-us__how-we-do-it .about-us__how-we-do-it--images .about-us__how-we-do-it--images_hexagon :after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid #424242;
 }
 /*--> About us END <--*/
 /*--> Our skills START <--*/
