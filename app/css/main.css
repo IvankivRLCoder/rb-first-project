@@ -623,8 +623,9 @@ ul {
 .about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon {
   width: 100px;
   height: 55px;
-  background: rgba(45,45,45,0.92);
+  background-image: url("../img/about_au_who_we_are.png");
   position: relative;
+  background-size: contain;
 }
 .about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon :before {
   content: "";
@@ -635,7 +636,7 @@ ul {
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 25px solid rgba(45,45,45,0.92);
+  border-bottom: 25px solid #414141;
 }
 .about-us .about-us-all .about-us__container .about-us__who-we-are .about-us__who-we-are--images .about-us__who-we-are--images_hexagon :after {
   content: "";
@@ -646,7 +647,7 @@ ul {
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 25px solid rgba(45,45,45,0.92);
+  border-top: 25px solid #414141;
 }
 .about-us .about-us-all .about-us__container .about-us__what-we-do {
   display: -webkit-box;
@@ -724,7 +725,9 @@ ul {
   width: 100px;
   height: 55px;
   background: rgba(45,45,45,0.92);
+  background-image: url("../img/about_au_what_we_do.png");
   position: relative;
+  background-size: contain;
 }
 .about-us .about-us-all .about-us__container .about-us__what-we-do .about-us__what-we-do--images .about-us__what-we-do--images_hexagon :before {
   content: "";
@@ -825,6 +828,8 @@ ul {
   height: 55px;
   background: rgba(45,45,45,0.92);
   position: relative;
+  background-image: url("../img/about_us_how_we_do_it.png");
+  background-size: contain;
 }
 .about-us .about-us-all .about-us__container .about-us__how-we-do-it .about-us__how-we-do-it--images .about-us__how-we-do-it--images_hexagon :before {
   content: "";
